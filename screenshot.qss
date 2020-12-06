@@ -1,0 +1,128 @@
+QWidget[whatsThis="captionWidget"]
+{
+    background-color: rgb(129, 199, 212);
+    border-left: 1px solid rgba(255, 255, 255, 0.5);
+    border-right: 1px solid rgba(255, 255, 255, 0.5);
+    border-top: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+QWidget[whatsThis="topWidget"]
+{
+    background-color: rgb(129, 199, 212);
+    border-left: 1px solid rgba(255, 255, 255, 0.5);
+    border-right: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+QWidget[whatsThis="btnWidget"]
+{
+    background-color: rgb(129, 199, 212);
+    border-left: 1px solid rgba(255, 255, 255, 0.5);
+    border-right: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+QWidget[whatsThis="bottomWidget"]
+{
+    background-color: rgb(129, 199, 212);
+    border-left: 1px solid rgba(255, 255, 255, 0.5);
+    border-right: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+QWidget[whatsThis="exportWidget"]
+{
+    background-color: rgb(129, 199, 212);
+    border-left: 1px solid rgba(255, 255, 255, 0.5);
+    border-right: 1px solid rgba(255, 255, 255, 0.5);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+QLabel[whatsThis="title"]
+{
+    font: bold 14px "Microsoft YaHei";
+}
+
+QPushButton
+{
+    border: 1px solid rgba(0, 0, 0, 127);
+    font: bold 12px "Microsoft YaHei";
+    border-radius: 10px;
+}
+
+QPushButton:enabled
+{
+    border: 1px solid rgba(255, 255, 255, 127);
+    color: rgba(255, 255, 255, 1);
+}
+
+QPushButton:hover
+{
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+QPushButton:pressed
+{
+    background-color: rgba(255, 255, 255, 0.6);
+}
+
+QComboBox[whatsThis="comboType"]
+{
+    color: red;
+    font: bold 12px "Microsoft YaHei";
+    background-color: rgba(255, 255, 255, 0.5);
+    border: 1px solid rgba(255, 255, 255, 1);
+}
+
+QPushButton[whatsThis="menuBtn"]
+{
+    border: none;
+    border-radius: 0px;
+}
+
+QPushButton:hover[whatsThis="menuBtn"]
+{
+    border: none;
+    background-color: rgba(255, 255, 255, 0.7);
+}
+
+QScrollBar:horizontal
+{
+    height: 10px;
+    border: 1px solid rgba(88, 178, 220, 1);
+    border-radius: 4px;
+    background-color: yellow;
+}
+
+QScrollBar::handle:horizontal
+{
+    background-color: rgb(129, 199, 212);
+    min-width: 5px;
+    border-radius: 4px;
+}
+
+QScrollBar::add-line:horizontal
+{
+    margin: 0px 3px 0px 3px;
+    width: 0px;
+    height: 0px;
+    subcontrol-position: right;
+    subcontrol-origin: margin;
+}
+
+QScrollBar::sub-line:horizontal
+{
+    margin: 0px 3px 0px 3px;
+    height: 0px;
+    width: 0px;
+    subcontrol-position: left;
+    subcontrol-origin: margin;
+}
+
+QScrollBar::up-arrow:horizontal, QScrollBar::down-arrow:horizontal
+{
+    background: none;
+}
+
+
+QScrollBar::add-page:horizontal, QScrollBar::sub-page:horizontal
+{
+    background: none;
+}

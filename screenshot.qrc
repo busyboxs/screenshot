@@ -1,0 +1,5 @@
+<RCC>
+    <qresource prefix="/screenshot">
+        <file>screenshot.qss</file>
+    </qresource>
+</RCC>
