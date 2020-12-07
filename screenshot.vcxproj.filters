@@ -177,6 +177,9 @@
     <None Include="screenshot.qss">
       <Filter>Resource Files</Filter>
     </None>
+    <None Include=".gitignore" />
+    <None Include=".gitattributes" />
+    <None Include="screenshot.aps" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="functions\util.h">
